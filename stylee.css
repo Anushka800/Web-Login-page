@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+   
+    background: linear-gradient(to top, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.5)100%), url(https://wallpapercave.com/wp/wp8277897.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1400px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.content{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+   position:relative ;
+   font-family:cursive;
+   font-size: 30px;
+   
+}
+img {
+    max-width:30%;
+    height:auto;
+}
+.menu{
+    width: 1000px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{                
+    color: #ff7200;
+}
+.search{
+    width: 310px;
+    float: right;
+    margin-left: 270px; 
+   
+}
+
+.srch{
+   font-family: 'Times New Roman';
+   width: 200px;
+   height: 40px;
+   background: transparent;
+   border: 1px solid #ff7200;
+   margin-top: 1px;
+   color: #fff;
+   border-right: none;
+   font-size: 16px;
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:rgba(0, 2, 5, 0.712);
+    border: 2px solid rgb(243, 245, 245);
+    margin: 1px;
+    color: rgb(241, 142, 12);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background: rgb(245, 155, 20);
+    color: #021322;
+}
+.srch:focus{
+    outline: none;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+ }
+ .content h1{
+     font-family: 'Times New Roman';
+     font-size: 70px;
+     
+     padding-right: 20px;
+     margin-top: 1%;
+     letter-spacing: 2px;
+
+
+ }
+ .card{
+     width: 200px;
+     height: 300px;
+    
+     display:flex;
+     align-items: stretch;
+     justify-content: space-around;
+
+   
+     border-radius: 25px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor:pointer;
+     margin: 10px;
+     
+     background-position:left;
+     background-size: cover;
+ }
+ 
+ .card2{
+    background-image: url(https://www.delhimetrotimes.in/photos/2021/03/ajmer.jpg);
+
+ }
